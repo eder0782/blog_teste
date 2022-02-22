@@ -80,7 +80,7 @@ body{
 }
 
 .body_destaque{
-    margin: 0 136px;
+   
     margin-top: 20px;
     color: aqua;
     display: flex;
@@ -95,25 +95,153 @@ body{
     font-size: 80px;
     width: 558px;
     height: 320px;
+    padding-left: 136px;
    
     color: var(--color-white);
 }
 
 .body_destaque p{
-    font-size: 36px;
+    font-size: 26px;
     width: 558px;
     height: 320px;    
     color: var(--color-cinzar);
-    
+    padding-left: 136px;    
 }
 
 .body_destaque button{
     width: 250px;
     height: 50px;
+    margin-left: 136px;
     border-radius: 10px;
     background: var(--color-primary) ;
     font-size: 24px;    
     border: var(--color-botao1);   
     cursor: pointer; 
+    color: var(--color-secundary);
+}
+
+.servicos{
+
+    padding-left:136px ;
+    padding-right: 136px;
+  
+    margin-top: 85px;
+    margin-bottom: 35px;
+    
+}
+.servicos h2{
+    font-size: 35px;
+    color: var(--color-white);
+    
+}
+
+.servicos .container_cards{
+    display: grid;
+   
+    overflow: auto;
+    gap: 15px;
+    margin-top: 35px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.servicos .card{
+    border-radius: 10px;
+    
+    border: 2px solid #DD902F;
+    width: 250px;
+    height: 320px;
+    margin-bottom: 15px;
+}
+
+.engenheiro {
+    margin-top: 85px;
+    padding-left: 136px;
+    padding-right: 136px;
+    margin-bottom: 35px;
+}
+
+.engenheiro h2{
+    font-size: 35px;
+    color: var(--color-white);
+    
+
+}
+.engenheiro h3{
+    font-size: 33px;
+}
+
+.container_engenheiro{
+    display: flex;
+   
+    justify-content: space-between;
+    padding-top: 80PX;
+}
+
+.container_engenheiro p{
+    font-size: 26px;
+    width: 558px;
+    height: 320px;    
+    color: var(--color-cinzar);
+    margin-top: 55px;
+
+}
+
+.form_contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 35px;
+}
+
+.form_contato form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #DD902F;
+    border-radius: 10px;
+    width: 592px;
+    height: 518px;
+    justify-content: space-between;
+}
+/*
+.form_contato input,h2,button{
+    margin-left: 80px;
+    margin-right: 80px;
+}*/
+
+.form_contato h2{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+.form_contato input{
+    margin-left: 80px;
+    margin-right: 80px;
+    color: var(--color-white);
+
+}
+
+.form_contato button{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.form_contato input{
+
+    border: 2px solid #DD902F;
+    
+    border-radius: 10px;
+    background-color: var(--color-secundary);
+    padding: 12px 20px;
+}
+
+.form_contato button{
+    margin-bottom: 25px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background: var(--color-primary);
+    font-size: 25px;
     color: var(--color-secundary);
 }
